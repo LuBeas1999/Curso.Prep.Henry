@@ -1,0 +1,52 @@
+1) Explicación de los conceptos:
+
+Variables: 
+Sirven para guardar datos y poder usarlos más tarde. 
+Para crear una variable en programación usamos "var"
+Podemos asignarle un nombre. Por ejemplo, podemos crear una variable que se llame "día".
+Para eso vamos a escribir Var día.
+
+Dijimos que en ella podemos guardar datos ¿Cómo? usando el signo =.
+Entonces, vamos a hacer que la variable que creamos llamada día valga 8.
+
+Escribimos: 
+var día = 8
+
+Strings: 
+Podríamos decir que son palabras pero no siempre es así. Una seguidilla de letras o una sola letra es un string. 
+También pueden ser números. 
+El punto clave para reconocer un string es que siempre está entre comillas. Los siguientes son ejemplos de strings:
+
+'hola' 
+'1' 
+'uno'
+ 'b' 
+'ghfdgfd'
+
+Funciones: 
+Son una parte muy importante en la programación. En ellas podremos agrupar una serie de pasos que le queremos dar a la computadora. 
+Para crear una usamos la palabra “function”. Al igual que las variables a las funciones se les puede asignar un nombre.
+Hay tres formas de construir una pero vamos a hablar de una en particular. De esta forma podemos crear una escribiendo: 
+
+function Sumar ()
+
+	Aclaración: los paréntesis siempre deben estar para crear una función.
+
+Los argumentos son los valores asignados a los parámetros cuando se invoca una función. Además tenemos la palabra return que permite accionar sobre esa función y devolver el resultado esperado.
+
+Declaraciones IF:
+La palabra clave IF se usa dentro de los operadores de control de flujo, estos se usan para verificar si una función es true y que suceda determinada acción o que suceda otra si no lo es. Así lo utilizamos en programación: 
+
+	function puedeIngresarAlSitio (edad) {
+    if (edad > 18) {
+        return true;
+    }
+
+    return false;
+}
+
+puedeIngresarAlSitio (31); // true
+
+Valores Booleanos: 
+	Los valores booleanos true y false están relacionados con el sistema binario en el que solo hay dos opciones, 0 y 1, activado y desactivado, verdadero y falso. En programación los utilizamos para indicar a la computadora cuando avanzar dependiendo de cómo se ejecute el código utilizado. 
+	El ejemplo anterior sirve para comprender esto. 
